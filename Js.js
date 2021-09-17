@@ -82,7 +82,7 @@ var colors = [
     document.getElementById("tweet-quote").href = twitterLink;
     document.getElementById("text").innerText = randomQuoteData.quote;
     document.getElementById("author").innerText = randomQuoteData.author;
-  
+    randomColor();
     
   }
     
@@ -90,7 +90,7 @@ var colors = [
   window.onload = init;
   function init (){
     generateQuote();
-    randomColor();
+    
   }
   
   
